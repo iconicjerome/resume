@@ -14,8 +14,21 @@ body{
   padding-top: 20px;
 }
 
-img{
+#zuri{
+  width: 90px;
   position: absolute;
+  left: 20px;
+}
+#hng{
+  width: 90px;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+#I4G{
+  width: 90px;
+  position: absolute;
+  top: 180px;
   left: 20px;
 }
 
