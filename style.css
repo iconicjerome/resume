@@ -1,0 +1,59 @@
+body{
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(120deg,#155799, #159957);
+  margin: 0%;
+}
+/* use height and line height properties to center div */
+.header{
+  color: white;
+  height: 200px;
+  line-height: 150px;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+img{
+  position: absolute;
+  left: 20px;
+}
+
+.resume{
+  color: white;
+  border: 5px solid white ;
+  width: 60%;
+  margin: auto;
+  line-height: 1.6;
+}
+.section-1{
+  text-align: right;
+  padding-right: 10px;
+  line-height: 0.7;
+}
+.sub-heading{
+  padding-left: 10px;
+}
+.table-data{
+  float: right;
+ 
+}
+p{
+  padding-left: 8px;
+}
+table{
+  padding-left: 8px;
+}
+@media (max-width: 900px){
+  
+  img{
+    width: 20%;
+  }
+  /* use font-size medium for mobile sites */
+  h1{
+    font-size: medium;
+  }
+  .section-1{
+    line-height: 1.6;
+  }
+}
